@@ -1,32 +1,15 @@
-# 🛍️ Amazon Sales — Python Exploratory Data Analysis (EDA)
+# Amazon Sales — Python Exploratory Data Analysis (EDA)
 
-> A full end-to-end Python EDA project on an Amazon sales dataset — uncovering revenue trends, category performance, regional insights, discount impact, customer behaviour, and variable relationships using pandas, matplotlib, and seaborn.
 
----
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs an in-depth **Exploratory Data Analysis (EDA)** on Amazon sales data using Python. It covers 8 structured business questions, progressing from high-level sales performance down to customer behaviour and correlation analysis — producing publication-ready visualisations at every stage.
 
 ---
 
-## 📂 Repository Structure
 
-```
-amazon-sales-python-eda/
-│
-├── Amazon_Sales_EDA.ipynb         # Full Jupyter Notebook (8 EDA questions)
-├── data/
-│   └── amazon_sales_dataset.csv   # Raw dataset
-├── charts/
-│   ├── chart_08a_correlation_heatmap.png
-│   └── ...                        # All generated chart outputs
-└── README.md                      # Project documentation
-```
-
----
-
-## 📊 Dataset Overview
+##  Dataset Overview
 
 | Column | Description |
 |---|---|
@@ -44,7 +27,7 @@ amazon-sales-python-eda/
 
 ---
 
-## 🔍 EDA Questions Covered
+##  EDA Questions Covered
 
 | # | Question | Focus Area |
 |---|---|---|
@@ -59,16 +42,16 @@ amazon-sales-python-eda/
 
 ---
 
-## 📈 Visualisations Produced
+##  Visualisations Produced
 
-- 📊 Area + Line chart — Monthly Revenue Trend (with peak annotation)
-- 📊 Horizontal stacked bar — Revenue vs Discount Cost by Category
-- 📊 Side-by-side bar charts — Top 5 Categories by Revenue & Discount
-- 🔥 Correlation Heatmap — All key numeric variables (Blues palette)
+-  Area + Line chart — Monthly Revenue Trend (with peak annotation)
+-  Horizontal stacked bar — Revenue vs Discount Cost by Category
+-  Side-by-side bar charts — Top 5 Categories by Revenue & Discount
+-  Correlation Heatmap — All key numeric variables (Blues palette)
 
 ---
 
-## 💡 Key Highlights
+##  Key Highlights
 
 - Revenue, quantity, pricing, and discount data cleaned and analysed across all product categories
 - Time features engineered from `order_date`: `year`, `month`, `month_name`, `month_year`
@@ -78,7 +61,7 @@ amazon-sales-python-eda/
 
 ---
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 | Library | Purpose |
 |---|---|
@@ -90,7 +73,7 @@ amazon-sales-python-eda/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone this repository
 2. Install dependencies:
@@ -109,7 +92,7 @@ df.head()
 
 ---
 
-## 🎨 Colour Palette Used
+##  Colour Palette Used
 
 | Variable | Hex | Usage |
 |---|---|---|
@@ -119,17 +102,3 @@ df.head()
 
 ---
 
-## 👤 Author
-
-**Abdulfattah (Adebayo Abdulfatai Ayinde)**
-Data Analyst | Accounting Graduate | Interior Decorator
-
-> *"Turning raw numbers into meaningful stories."*
-
-- 🐙 GitHub: [@fattah-canvas](https://github.com/fattah-canvas)
-
----
-
-## 📝 License
-
-This project is for portfolio and educational purposes.
